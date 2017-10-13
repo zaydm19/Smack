@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DD5CAC90C5C4D0FB5CE95A57 /* Pods_Smack1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38240328BABE1A4DCEA2F94D /* Pods_Smack1.framework */; };
 		E401DB0D1F90F19B00482A2E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401DB0C1F90F19B00482A2E /* GradientView.swift */; };
+		E401DB101F9148B100482A2E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401DB0F1F9148B100482A2E /* Constants.swift */; };
+		E401DB121F9150B400482A2E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401DB111F9150B400482A2E /* LoginVC.swift */; };
 		E4E895EB1F8ED4610049E5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E895EA1F8ED4610049E5DA /* AppDelegate.swift */; };
 		E4E895F01F8ED4610049E5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E895EE1F8ED4610049E5DA /* Main.storyboard */; };
 		E4E895F21F8ED4610049E5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E895F11F8ED4610049E5DA /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		A17E27364E6CC2E2857FADC3 /* Pods-Smack1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack1/Pods-Smack1.debug.xcconfig"; sourceTree = "<group>"; };
 		C29AD768D65D4BB3C7495E4A /* Pods-Smack1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack1/Pods-Smack1.release.xcconfig"; sourceTree = "<group>"; };
 		E401DB0C1F90F19B00482A2E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E401DB0F1F9148B100482A2E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E401DB111F9150B400482A2E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E4E895E71F8ED4610049E5DA /* Smack1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E895EA1F8ED4610049E5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E895EF1F8ED4610049E5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E401DB0E1F91489D00482A2E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E401DB0F1F9148B100482A2E /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E4E895DE1F8ED4610049E5DA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		E4E895E91F8ED4610049E5DA /* Smack1 */ = {
 			isa = PBXGroup;
 			children = (
+				E401DB0E1F91489D00482A2E /* Utilities */,
 				E4E896021F8ED9800049E5DA /* Model */,
 				E4E896011F8ED97A0049E5DA /* View */,
 				E4E896001F8ED9710049E5DA /* Controllers */,
@@ -114,6 +127,7 @@
 			children = (
 				E4E896031F8ED9A40049E5DA /* ChatVC.swift */,
 				E4E896051F8ED9B40049E5DA /* ChannelVC.swift */,
+				E401DB111F9150B400482A2E /* LoginVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -259,9 +273,11 @@
 			files = (
 				E4E896041F8ED9A40049E5DA /* ChatVC.swift in Sources */,
 				E4E896061F8ED9B40049E5DA /* ChannelVC.swift in Sources */,
+				E401DB121F9150B400482A2E /* LoginVC.swift in Sources */,
 				E401DB0D1F90F19B00482A2E /* GradientView.swift in Sources */,
 				E4E895EB1F8ED4610049E5DA /* AppDelegate.swift in Sources */,
 				E4E896071F904AD00049E5DA /* SWRevealViewController.m in Sources */,
+				E401DB101F9148B100482A2E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
